@@ -1,0 +1,34 @@
+{
+  "name": "nodeexpressapi",
+  "version": "1.0.0",
+  "description": "This is an app for creating simple restful crud api in node, express and mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "api",
+    "json",
+    "crud",
+    "restful"
+  ],
+  "author": "Rahul Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "body-parser": "^1.19.0",
+    "create-react-app": "^3.4.1",
+    "express": "^4.17.1",
+    "formik": "^2.1.5",
+    "mongoose": "^5.10.2",
+    "nodemon": "^1.19.4",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-dom": "^16.13.1",
+    "yup": "^0.29.3"
+  }
+}
